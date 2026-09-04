@@ -1,7 +1,62 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
+  title: Slow Wealth Lab Docs
   structure:
-    readme: README.md
-    summary: SUMMARY.md
-  spaces:
-    - location: .
-      name: Slow Wealth Lab Docs
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+    - type: section
+      key: section-2
+      title: Changelog
+      path: changelog
+      icon: clock-rotate-left
+      children:
+        - type: space
+          key: space-2
+          title: Changelog
+          path: changelog
+          default: true
+          content:
+            directory: ./changelog
+    - type: section
+      key: section-3
+      title: Help Center
+      path: help-center
+      icon: life-ring
+      children:
+        - type: space
+          key: space-3
+          title: Help Center
+          path: help-center
+          default: true
+          content:
+            directory: ./help-center
+    - type: section-group
+      key: section-group-1
+      title: About Slow Wealth Lab
+      draft: true
+      children: []
+    - type: section
+      key: section-4
+      title: Robinhood
+      path: robinhood
+      children:
+        - type: space
+          key: space-4
+          title: Robinhood
+          path: robinhood
+          default: true
+          draft: true
+          content:
+            directory: ./robinhood
