@@ -1,3 +1,7 @@
-structure:
-  readme: README.md
-  summary: SUMMARY.md
+site:
+  structure:
+    readme: README.md
+    summary: SUMMARY.md
+  spaces:
+    - location: .
+      name: Slow Wealth Lab Docs
