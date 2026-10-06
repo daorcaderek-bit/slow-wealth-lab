@@ -2,20 +2,6 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Derek Wong Lab
   structure:
-    - type: section
-      key: section-1
-      title: Home
-      path: home
-      icon: house
-      default: true
-      children:
-        - type: space
-          key: space-1
-          title: Home
-          path: home
-          default: true
-          content:
-            directory: ./home
     - type: section-group
       key: section-group-1
       title: About Slow Wealth Lab
@@ -59,4 +45,18 @@ site:
           key: section-group-6
           title: 投资入门
           draft: true
-          children: []
+          children:
+            - type: section
+              key: section-1
+              title: Home
+              path: home
+              icon: house
+              default: true
+              children:
+                - type: space
+                  key: space-1
+                  title: Home
+                  path: home
+                  default: true
+                  content:
+                    directory: ./home
