@@ -21,3 +21,8 @@ site:
       title: About Slow Wealth Lab
       draft: true
       children: []
+    - type: section-group
+      key: section-group-2
+      title: 观点与长文
+      draft: true
+      children: []
