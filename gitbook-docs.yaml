@@ -51,7 +51,7 @@ site:
               title: robinchain 入门指南
               path: home
               description: ""
-              icon: house
+              icon: book-blank
               children:
                 - type: space
                   key: space-1
