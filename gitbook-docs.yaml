@@ -55,3 +55,8 @@ site:
           title: 方法与工具
           draft: true
           children: []
+        - type: section-group
+          key: section-group-6
+          title: 投资入门
+          draft: true
+          children: []
