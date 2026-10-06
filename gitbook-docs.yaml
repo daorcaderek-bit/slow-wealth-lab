@@ -17,6 +17,7 @@ site:
           default: true
           content:
             directory: ./home-1/home
+            language: zh
     - type: section-group
       key: section-group-1
       title: About
