@@ -30,7 +30,20 @@ site:
           key: section-group-3
           title: 投资研究
           draft: true
-          children: []
+          children:
+            - type: section
+              key: section-2
+              title: BTC
+              path: btc
+              children:
+                - type: space
+                  key: space-2
+                  title: BTC
+                  path: btc
+                  default: true
+                  draft: true
+                  content:
+                    directory: ./btc
         - type: section-group
           key: section-group-4
           title: 判断与预测
