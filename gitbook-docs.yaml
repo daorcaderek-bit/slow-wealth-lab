@@ -51,7 +51,6 @@ site:
               title: Home
               path: home
               icon: house
-              default: true
               children:
                 - type: space
                   key: space-1
@@ -64,6 +63,7 @@ site:
       key: section-3
       title: Home
       path: home-1
+      default: true
       children:
         - type: space
           key: space-3
