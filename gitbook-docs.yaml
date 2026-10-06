@@ -35,6 +35,7 @@ site:
               key: section-2
               title: BTC
               path: btc
+              description: ""
               children:
                 - type: space
                   key: space-2
