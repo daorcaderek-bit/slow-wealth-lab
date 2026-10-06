@@ -63,6 +63,8 @@ site:
       key: section-3
       title: Home
       path: home-1
+      description: ""
+      icon: house-chimney-user
       default: true
       children:
         - type: space
