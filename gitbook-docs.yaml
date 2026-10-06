@@ -41,7 +41,6 @@ site:
                   title: BTC
                   path: btc
                   default: true
-                  draft: true
                   content:
                     directory: ./btc
         - type: section-group
