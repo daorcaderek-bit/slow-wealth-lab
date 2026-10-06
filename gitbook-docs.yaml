@@ -36,3 +36,8 @@ site:
           title: 判断与预测
           draft: true
           children: []
+        - type: section-group
+          key: section-group-5
+          title: 方法与工具
+          draft: true
+          children: []
