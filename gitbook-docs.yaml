@@ -7,7 +7,7 @@ site:
       title: Home
       path: home-1
       description: ""
-      icon: house-chimney-user
+      icon: house
       default: true
       children:
         - type: space
