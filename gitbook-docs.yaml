@@ -25,4 +25,9 @@ site:
       key: section-group-2
       title: 观点与长文
       draft: true
-      children: []
+      children:
+        - type: section-group
+          key: section-group-3
+          title: 投资研究
+          draft: true
+          children: []
