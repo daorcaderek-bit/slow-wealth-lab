@@ -51,7 +51,7 @@ site:
             - type: section
               key: section-5
               title: AI与区块链
-              path: untitled-1
+              path: ai-crypto
               description: ""
               children:
                 - type: space
@@ -59,7 +59,6 @@ site:
                   title: AI与区块链
                   path: untitled
                   default: true
-                  draft: true
                   content:
                     directory: ./untitled-1/untitled
         - type: section-group
