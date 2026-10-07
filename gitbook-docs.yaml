@@ -30,6 +30,10 @@ site:
         - type: section-group
           key: section-group-3
           title: 投资研究
+          children: []
+        - type: section-group
+          key: section-group-4
+          title: 判断与预测
           children:
             - type: section
               key: section-2
@@ -44,10 +48,6 @@ site:
                   default: true
                   content:
                     directory: ./btc
-        - type: section-group
-          key: section-group-4
-          title: 判断与预测
-          children:
             - type: section
               key: section-5
               title: AI与金融
