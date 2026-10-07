@@ -50,13 +50,13 @@ site:
                     directory: ./btc
             - type: section
               key: section-5
-              title: AI与金融
+              title: AI与区块链
               path: untitled-1
               description: ""
               children:
                 - type: space
                   key: space-5
-                  title: AI与金融
+                  title: AI与区块链
                   path: untitled
                   default: true
                   draft: true
